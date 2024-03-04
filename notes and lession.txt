@@ -1,0 +1,12 @@
+- When you click on the extension icon, it typically triggers the popup defined in the default_popup field of the manifest file
+
+- background process continues to run even after browser shuts down
+
+- content.js is for accessing the DOM element
+
+
+
+chrome.tabs.query({currentWindow: true}, function(tabs) {}
+
+- The 'tabs' array contains information about all open tabs get total number of current tabs and display it
+- {currentWindow: true} reflects only to the current window when there are multiple ones
